@@ -21,6 +21,7 @@ public class StandaloneTest extends Initialization {
 		CataloguePage cp=creds.credentials("mere@greysloan.com", "Merelove24");
 		cp.returnList();
 		cp.getWebElement(productName);
+//Validate CI CD
 		
 		CartPage carts=cp.ClickSubmit(productName);
 		
